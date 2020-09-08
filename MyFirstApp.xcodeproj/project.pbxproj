@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1F6EF425077AFF002C2ADF /* TabBarControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F6EF325077AFF002C2ADF /* TabBarControllerMain.swift */; };
 		4B4148BD25074E0D00EC7188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4148BC25074E0D00EC7188 /* AppDelegate.swift */; };
 		4B4148BF25074E0D00EC7188 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4148BE25074E0D00EC7188 /* SceneDelegate.swift */; };
 		4B4148C125074E0D00EC7188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4148C025074E0D00EC7188 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B1F6EF325077AFF002C2ADF /* TabBarControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerMain.swift; sourceTree = "<group>"; };
 		4B4148B925074E0D00EC7188 /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4148BC25074E0D00EC7188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B4148BE25074E0D00EC7188 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				4B4148BC25074E0D00EC7188 /* AppDelegate.swift */,
 				4B4148BE25074E0D00EC7188 /* SceneDelegate.swift */,
+				4B1F6EF325077AFF002C2ADF /* TabBarControllerMain.swift */,
 				4B4148C025074E0D00EC7188 /* ViewController.swift */,
 				4B4148D2250753C700EC7188 /* DeviceViewController.swift */,
 				4B4148D4250753DF00EC7188 /* AutomationViewController.swift */,
@@ -153,6 +156,7 @@
 				4B4148D3250753C700EC7188 /* DeviceViewController.swift in Sources */,
 				4B4148D7250753F800EC7188 /* ConfigViewController.swift in Sources */,
 				4B4148BF25074E0D00EC7188 /* SceneDelegate.swift in Sources */,
+				4B1F6EF425077AFF002C2ADF /* TabBarControllerMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
