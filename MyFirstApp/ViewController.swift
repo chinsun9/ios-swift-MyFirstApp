@@ -31,7 +31,7 @@ class ViewController: UIViewController {
 
     override func viewDidLayoutSubviews() {
         let tmpFrame = self.tabBarController?.tabBar.frame
-        self.tabBarController?.tabBar.frame = CGRect(x: 0, y: 0, width: Int(tmpFrame!.width), height: Int(tmpFrame!.height)+20)
+        self.tabBarController?.tabBar.frame = CGRect(x: 0, y: 0, width: Int(tmpFrame!.width), height: Int(tmpFrame!.height))
     }
 
     
