@@ -13,9 +13,27 @@ class DeviceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(_:)))
+        swipeLeft.direction = UISwipeGestureRecognizer.Direction.left
+        self.view.addGestureRecognizer(swipeLeft)
+        
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(_:)))
+        swipeRight.direction = UISwipeGestureRecognizer.Direction.right
+        self.view.addGestureRecognizer(swipeRight)
         // Do any additional setup after loading the view.
     }
-    
+    @objc func respondToSwipeGesture(_ gesture: UIGestureRecognizer) {
+        if let swipeGesture = gesture as? UISwipeGestureRecognizer {
+            switch swipeGesture.direction {
+            case UISwipeGestureRecognizer.Direction.left:
+                tabBarController?.selectedIndex += 1
+            case UISwipeGestureRecognizer.Direction.right:
+                tabBarController?.selectedIndex -= 1
+            default:
+                break
+            }
+        }
+    }
 
     /*
     // MARK: - Navigation
@@ -26,5 +44,7 @@ class DeviceViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+
 
 }
