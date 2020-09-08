@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        // 탭바 상단으로 올리는 코드
+         //self.tabbar.frame = CGRect( x: 0, y: 0, width: 320, height: 50)
     }
 
 
