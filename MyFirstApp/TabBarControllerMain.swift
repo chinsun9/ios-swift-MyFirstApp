@@ -27,6 +27,7 @@ class TabBarControllerMain: UITabBarController {
  
         // Do any additional setup after loading the view.
     }
+    
  
  
     @objc func handleSwipeGesture(_ gesture: UISwipeGestureRecognizer) {
