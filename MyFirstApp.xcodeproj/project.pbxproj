@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0A3DC42508C2650036E959 /* south-korea.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0A3DC32508C2650036E959 /* south-korea.png */; };
 		4B1F6EF425077AFF002C2ADF /* TabBarControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F6EF325077AFF002C2ADF /* TabBarControllerMain.swift */; };
 		4B4148BD25074E0D00EC7188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4148BC25074E0D00EC7188 /* AppDelegate.swift */; };
 		4B4148BF25074E0D00EC7188 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4148BE25074E0D00EC7188 /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B0A3DC32508C2650036E959 /* south-korea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "south-korea.png"; sourceTree = "<group>"; };
 		4B1F6EF325077AFF002C2ADF /* TabBarControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerMain.swift; sourceTree = "<group>"; };
 		4B4148B925074E0D00EC7188 /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4148BC25074E0D00EC7188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		4B4148BB25074E0D00EC7188 /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				4B0A3DC32508C2650036E959 /* south-korea.png */,
 				4B4148BC25074E0D00EC7188 /* AppDelegate.swift */,
 				4B4148BE25074E0D00EC7188 /* SceneDelegate.swift */,
 				4B1F6EF325077AFF002C2ADF /* TabBarControllerMain.swift */,
@@ -140,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0A3DC42508C2650036E959 /* south-korea.png in Resources */,
 				4B4148C925074E0E00EC7188 /* LaunchScreen.storyboard in Resources */,
 				4B4148C625074E0E00EC7188 /* Assets.xcassets in Resources */,
 				4B4148C425074E0D00EC7188 /* Main.storyboard in Resources */,
