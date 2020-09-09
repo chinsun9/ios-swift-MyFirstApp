@@ -31,7 +31,7 @@ class HomeViewController: UIViewController {
         //하단 메뉴들 보더 표시
         arrView.forEach {
             (view) in
-            view.layer.addBorder([.bottom], color: UIColor.gray, width: 1.0)
+            view.layer.addBorder([.bottom], color: UIColor.opaqueSeparator, width: 1.0, myvar: self.view.frame.width - 92)
             
             
         }
@@ -97,7 +97,7 @@ class ZeddView: UIView {
 }
 
 extension CALayer {
-    func addBorder(_ arr_edge: [UIRectEdge], color: UIColor, width: CGFloat) {
+    func addBorder(_ arr_edge: [UIRectEdge], color: UIColor, width: CGFloat, myvar: CGFloat) {
         for edge in arr_edge {
             let border = CALayer()
             switch edge {
@@ -105,7 +105,7 @@ extension CALayer {
                 border.frame = CGRect.init(x: 0, y: 0, width: frame.width, height: width)
                 break
             case UIRectEdge.bottom:
-                border.frame = CGRect.init(x: 0, y: frame.height - width, width: frame.width, height: width)
+                border.frame = CGRect.init(x: 0, y: frame.height - width, width: myvar, height: width)
                 break
             case UIRectEdge.left:
                 border.frame = CGRect.init(x: 0, y: 0, width: width, height: frame.height)
