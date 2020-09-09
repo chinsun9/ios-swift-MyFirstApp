@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AutomationViewController: UIViewController {
+class AutomationViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +16,10 @@ class AutomationViewController: UIViewController {
   
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let viewController = segue.destination as! NewAlarmViewController
+        print(viewController)
+    }
 
     /*
     // MARK: - Navigation
@@ -28,3 +32,4 @@ class AutomationViewController: UIViewController {
     */
 
 }
+

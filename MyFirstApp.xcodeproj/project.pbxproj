@@ -17,6 +17,7 @@
 		4B4148D3250753C700EC7188 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4148D2250753C700EC7188 /* DeviceViewController.swift */; };
 		4B4148D5250753DF00EC7188 /* AutomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4148D4250753DF00EC7188 /* AutomationViewController.swift */; };
 		4B4148D7250753F800EC7188 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4148D6250753F800EC7188 /* ConfigViewController.swift */; };
+		4B88D76D2508ACE800868D3E /* NewAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B88D76C2508ACE800868D3E /* NewAlarmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4B4148D2250753C700EC7188 /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
 		4B4148D4250753DF00EC7188 /* AutomationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationViewController.swift; sourceTree = "<group>"; };
 		4B4148D6250753F800EC7188 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		4B88D76C2508ACE800868D3E /* NewAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAlarmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				4B4148C025074E0D00EC7188 /* HomeViewController.swift */,
 				4B4148D2250753C700EC7188 /* DeviceViewController.swift */,
 				4B4148D4250753DF00EC7188 /* AutomationViewController.swift */,
+				4B88D76C2508ACE800868D3E /* NewAlarmViewController.swift */,
 				4B4148D6250753F800EC7188 /* ConfigViewController.swift */,
 				4B4148C225074E0D00EC7188 /* Main.storyboard */,
 				4B4148C525074E0E00EC7188 /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 				4B4148D3250753C700EC7188 /* DeviceViewController.swift in Sources */,
 				4B4148D7250753F800EC7188 /* ConfigViewController.swift in Sources */,
 				4B4148BF25074E0D00EC7188 /* SceneDelegate.swift in Sources */,
+				4B88D76D2508ACE800868D3E /* NewAlarmViewController.swift in Sources */,
 				4B1F6EF425077AFF002C2ADF /* TabBarControllerMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
